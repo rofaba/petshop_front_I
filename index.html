@@ -58,13 +58,13 @@
         </div>
 
 
-        
+
         <p id="rectangleComederos">comederos</p>
 
 
         <main>
-            <div >
-                <img id="pawprint" src="img/pawprint 1.png" width: 67px; height: 71px; alt="imagen de huella de perro">
+            <div id="pawprint">
+                <img src="img/pawprint 1.png" width:67px height: 71px alt="imagen de huella de perro">
             </div>
 
             <section>
@@ -90,32 +90,36 @@
             </section>
             <section>
                 <h2>Contáctanos</h2>
-                <form action="#">
-                    <input type="text" placeholder="Nombre y apellido" />
-                    <input type="email" placeholder="Ingresa tu correo electrónico" />
-                    <input type="tel" placeholder="Teléfono" />
-                    <button type="reset">Resetar</button>
-                    <button type="submit">Enviar</button>
+                <form class="contact" action="#">
+                    <input class="entry"    type="text" placeholder="Nombre y apellido" />
+                    <input class="entry"    type="email" placeholder="Ingresa tu correo electrónico" />
+                    <input class="entry"    type="tel" placeholder="Teléfono" />
+                    <button class="reset"   type="reset">Resetar</button>
+                    <button class="send"    type="submit">Enviar</button>
                 </form>
             </section>
             <div class="barraInferior">
                 <form action="#">
                     <!-- icono sobre -->
-                    <p> Suscribete para más novedades</p>
-                    <input type="mail" placeholder="Ingresa tu email">
-                    <button>Suscribirse</button>
+                    <p id="suscribete">  <span> <img src="img/enviar-correo.png" alt="pequeño sobre de correo"> </span> Suscribete para más novedades</p>
+                    <input id="userMail" type="mail" placeholder="Ingresa tu email">
+                    <butto class="entry">Suscribirse</button>
                 </form>
             </div>
         </main>
         <footer class="footer">
             <ul>
-                <li>Localidad <small> Calle - Provincia</small></li>
-                <li>Teléfono <small> Número de Teléfono</small></li>
-                <li>Correo Electrónico <small>Dirección de correo</small> </li>
+                <li> <img class="icon" src="img/iconLocation.png" alt=""> Localidad <small> Calle -
+                        Provincia</small></li>
+                <li> <img class="icon" src="img/iconPhone.png" alt=""> Teléfono <small> Número de Teléfono</small></li>
+                <li> <img class="icon" src="img/iconMail.png" alt=""> Correo Electrónico <small>Dirección de
+                        correo</small> </li>
             </ul>
+<br>
             <span>
-                <!-- gato --> FrontCat&Dog
-                <!-- perro -->
+                <img src="./img/Cat.png" width:2,55px height: 0.73px alt="pequeña imagen de un gato">
+                <span class="logotext">front <span id="catdog">cat&dog</span> </span>
+                <img src="./img/Dog.png" width:2,55px height: 0.73px alt="pequeña imagen de un perro">
             </span>
 
             <p class="bottomBar">Todos los derechos reservados Front End</p>
