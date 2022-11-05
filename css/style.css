@@ -105,6 +105,22 @@ article p {
   color: #3c2313;
 }
 
+.logotext2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: whitesmoke
+  }
+
+
+
+  #catdog2 {
+    color: #f0a83e;
+  }
+
+
 #catdog {
   color: whitesmoke;
 }
@@ -122,7 +138,7 @@ article p {
   width: 1024px;
   height: 62px;
   background-color: #f0a83e;
-  color: #ffffff;
+  
 }
 
 .barraInferior {
