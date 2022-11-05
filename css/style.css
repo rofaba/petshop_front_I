@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* textos */
+#pawprint {
+  text-align: center;
+  background-color: #ffffff 
+}
+.navbar img {
+  width: 15px;
+  height: 14px;
+}
+
+#comederosDescuento {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+#rectangleComederos {
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 790px;
+  top: 349px;
+
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 141px;
+  height: 49px;
+  background: #f0a83e;
+  border-radius: 5px;
+}
+
+#placerTenerte {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+#destacado {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+}
+#itemsDestacados {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+article p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #3c2313;
+}
+.price {
+  color: #f0a83e;
+}
+
+/*TEXTOS*/
+
+/*  ----- logo  ----- */
+.logotext {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #3c2313;
+}
+
+#catdog {
+  color: whitesmoke;
+}
+
+.topSuperior {
+  background-color: black;
+  color: whitesmoke;
+}
+
+#lineaDer {
+  text-align: right;
+}
+
+.barraSuperior {
+  width: 1024px;
+  height: 62px;
+  background-color: #f0a83e;
+  color:#ffffff
+}
+
+.barraInferior {
+  background-color: #f0a83e;
+  color: whitesmoke;
+}
+
+.robo {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+}
+.footer {
+  color: whitesmoke;
+  background-image: url("../img/fondoBrown.jpeg");
+}
+
+footer img {
+  height: 284px;
+}
+
+.bottomBar {
+  background-color: black;
+  color: whitesmoke;
+}
