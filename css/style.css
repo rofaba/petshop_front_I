@@ -7,14 +7,38 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.container {
+  width: 1024px;
+}
+
 /* textos */
+
+.topSuperior{
+  display:flex;
+  justify-content: space-between;
+}
+#lista {
+  display:flex;
+}
 #pawprint {
   text-align: center;
   background-color: #ffffff;
 }
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+}
 .navbar img {
   width: 15px;
   height: 14px;
+}
+
+.productos{
+  display:flex;
+  justify-content: center;
+
 }
 
 #comederosDescuento {
@@ -81,6 +105,9 @@ body {
   text-align: center;
 }
 
+article{
+  margin: 10px;
+}
 article p {
   font-style: normal;
   font-weight: 500;
@@ -91,6 +118,20 @@ article p {
 }
 .price {
   color: #f0a83e;
+}
+.contacto{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.inline{
+  text-align: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+
 }
 
 /*TEXTOS*/
@@ -126,6 +167,7 @@ article p {
 }
 
 .topSuperior {
+  height: 20px;
   background-color: black;
   color: whitesmoke;
 }
@@ -135,6 +177,9 @@ article p {
 }
 
 .barraSuperior {
+  display: flex;
+  justify-content: space-between;
+  
   width: 1024px;
   height: 62px;
   background-color: #f0a83e;
@@ -142,10 +187,15 @@ article p {
 }
 
 .barraInferior {
+  display: flex;
+  justify-content: space-between;
+
   background-color: #f0a83e;
   color: whitesmoke;
 }
-
+.suscripcion{
+  display: flex;
+}
 .robo {
   font-family: "Roboto", sans-serif;
   font-size: 50px;
